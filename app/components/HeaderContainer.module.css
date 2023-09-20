@@ -1,0 +1,15 @@
+.header_container{
+ 
+  width:100%;
+  height: 100vh;
+}
+.wallpaper{
+  width:100%;
+  height:100vh;
+   background-image: url(https://res.cloudinary.com/dxi9fwjsu/image/upload/v1694624893/fotos_portafolio2/America_s_Favorite_Comfort_Foods_and_Some_Signature_Places_to_Try_Them_t4nuzc.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; 
+  position: relative; 
+ 
+}
