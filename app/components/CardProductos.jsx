@@ -10,7 +10,7 @@ export default async function CardProductos({ productos }) {
   return (
     <div className="flex flex-wrap justify-center items-center gap-8 py-24">
       {comidas.map((e) => {
-        return <Link className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700" href={`/productos/detalles/${e.id}`}>
+        return <Link className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700" href={`/productos/detalles/${e.id}`} key={e.id}>
         <img className="rounded-t-lg w-full h-[250px] object-cover" src={e.imagen} alt={e.nombre} />
 
         <div className="p-5">

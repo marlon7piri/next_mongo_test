@@ -1,12 +1,12 @@
 {
-  "name": "panamatrip_paypal_app",
+  "name": "piopio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "next start"
+   
   },
   "dependencies": {
     "aos": "^2.3.4",
