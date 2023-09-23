@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 const useFetch = async (id) => {
   console.log(id);
-  const res = await fetch(`http://localhost:3000/api/products/${id}`);
+  const res = await fetch(`http://localhost:3000/productos/${id}`);
 
   const data = await res.json();
   /* await new Promise((resolve)=>setTimeout(resolve,3000)) */
@@ -17,7 +17,7 @@ export default async function Detalles({ params }) {
   });  */
 
   const data = await useFetch(params.id);
-  console.log(params.id);
+ 
 
   return (
     <div className=" w-full h-full flex justify-center items-center px-12 py-24 ">

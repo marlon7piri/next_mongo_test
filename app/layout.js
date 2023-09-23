@@ -1,7 +1,7 @@
 import Navigation from "./components/Navigation";
 import "../styles/Global.css";
 import Footer from "./components/Footer";
-import "aos/dist/aos.css";
+
 
 import { Belleza } from "next/font/google";
 
@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <header>
         <title>PioPio</title>
-        <link rel="stylesheet" href="" />
+       
       </header>
       <body className={akshar.className}>
         <Navigation />

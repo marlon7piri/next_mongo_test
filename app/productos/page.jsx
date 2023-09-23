@@ -7,9 +7,11 @@ import CardProductos from "@/components/CardProductos";
 
 
  const useFetch = async () => {
-  const res = await fetch("http://localhost:3000/api/products");
+  const res = await fetch("http://localhost:3000/productos");
  
   const data = await res.json();
+
+  console.log(data)
   /* await new Promise((resolve)=>setTimeout(resolve,3000)) */
   return data;
 }; 
