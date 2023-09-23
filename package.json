@@ -23,6 +23,7 @@
     "tailwindcss": "3.3.2"
   },
   "devDependencies": {
+    "dotenv-cli": "^7.3.0",
     "prisma": "^5.3.1",
     "standard": "17.0.0"
   }
