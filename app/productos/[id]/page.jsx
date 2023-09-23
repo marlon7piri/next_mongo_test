@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 const useFetch = async (id) => {
   console.log(id);
-  const res = await fetch(`http://localhost:3000/productos/${id}`);
+  const res = await fetch(`http://localhost:4000/productos/${id}`);
 
   const data = await res.json();
   /* await new Promise((resolve)=>setTimeout(resolve,3000)) */
