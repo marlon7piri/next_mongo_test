@@ -5,5 +5,5 @@ import connectionDB from "./db.js";
 
 connectionDB()
 app.listen(MONGOPORT, () => {
-  console.log("listening in port ,",MONGOPORT);
+  console.log("listen in,",MONGOPORT);
 });
