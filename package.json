@@ -6,8 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "vercel-build": "prisma generate && prisma migrate deploy && next build",
-    "prisma:generate": "prisma generate"
+    "production:build": "prisma generate && prisma migrate deploy && next build"
+    
   },
   "dependencies": {
     "@prisma/client": "^5.3.1",
