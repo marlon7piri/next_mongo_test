@@ -21,6 +21,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <header>
         <title>PioPio</title>
+        <link rel="stylesheet" href="" />
       </header>
       <body className={akshar.className}>
         <Navigation />

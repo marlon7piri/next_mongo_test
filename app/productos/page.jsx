@@ -1,27 +1,30 @@
 'use client'
 
 import React from "react";
-import CardProductos from "../components/CardProductos";
-import {productos} from '../data/api.js'
+import CardProductos from "@/components/CardProductos";
 
 
-/* const useFetch = async () => {
-  const res = await fetch("https://jsonplaceholder.typicode.com/users");
+
+
+ const useFetch = async () => {
+  const res = await fetch("http://localhost:3000/api/products");
+ 
   const data = await res.json();
+  /* await new Promise((resolve)=>setTimeout(resolve,3000)) */
   return data;
-}; */
+}; 
 
 export default async function Productos() {
 
-/*   const res =  await useFetch();
-  console.log(res);
- */
+ const data =  await useFetch();
+ 
 
- /*  console.log(productos) */
+
+
 
   return (
-    <div className="w-full h-full bg-gray-200 p-4">
-      <CardProductos productos={productos} key={productos.id}/>
+    <div className="w-full h-full  p-12 flex justify-center items-center">
+      <CardProductos data={data}/>
     </div>
   );
 }

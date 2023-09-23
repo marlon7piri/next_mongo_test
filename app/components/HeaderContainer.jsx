@@ -14,10 +14,10 @@ const HeaderContainer = () => {
   return (
     <div className={styles.wallpaper}>
       <div
-        className=" p-4 max-w-[600px]   text-left absolute top-24 left-10 flex flex-col gap-10" 
+        className="w-full  max-w-[400px] p-4  flex  flex-col gap-10 pt-40" 
        
       >
-        <h1 className="  text-5xl text-gray-50 font-black uppercase"  >
+        <h1 className=" w-max lg:text-5xl sm:text-4xl md:text-4xl text-gray-50 font-black uppercase"  >
           Come la Mejor Hamburguesa
         </h1>
 

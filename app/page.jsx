@@ -12,7 +12,7 @@ function page() {
  
 
   return (
-    <div>
+    <div className="">
       <HeaderContainer />
       <Cotizacion />
       <PromoComida />
